@@ -31,6 +31,10 @@ header nav li {
 }
 
 
+img {
+    max-width: 100%;
+}
+
 
 .logo {
     /* Ajustem la mida del logo*/
@@ -453,16 +457,27 @@ footer .menu-index ul li a  {
         width: 70%;
        }
 
-footer .menu-index ul {
+    footer .menu-index ul {
         padding-left: 0px;
     }
 
- footer .menu-index ul li a  {
-     font-size: 10px;
- }
+    footer .menu-index ul li a  {
+      padding: 0px;
+       font-size: 10px;
+   }
+
+   .peu-pagina-index a {
+       flex: 1;
+   }
+
+   .peu-pagina-index nav {
+      flex: 0;
+   }
 
 
 }
+
+
 
 
 
